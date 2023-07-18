@@ -1,4 +1,4 @@
-print ("-----7.Área------")
+print ("-----.Área------")
 
 lado = float(input("Ingresa la longitud de un lado del cuadrado: "))
 
