@@ -1,6 +1,6 @@
 def cuadrados_ordenados(array):
 
-    S = 8 * 8 #elevar
+    S = 88
 
 
     cuadrados_validos = [] #array vacio para almacenar
