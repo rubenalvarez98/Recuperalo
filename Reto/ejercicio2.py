@@ -1,25 +1,25 @@
 def cuadrados_ordenados(array):
 
-    S = 8 ** 2
+    S = 8 * 8 #elevar
 
 
-    cuadrados_validos = []
+    cuadrados_validos = [] #array vacio para almacenar
 
 
-    for numero in array:
+    for numero in array: #recorrer el array
 
-        cuadrado = numero ** 2
-
-
-        if 0 <= cuadrado <= S:
-
-            cuadrados_validos.append(cuadrado)
+        cuadrado = numero * numero  #cuadrado del numero
 
 
-    cuadrados_validos.sort()
+        if 0 <= cuadrado <= S: #validar si esta en el rango
+
+            cuadrados_validos.append(cuadrado) # agregar a validos
 
 
-    return cuadrados_validos
+    cuadrados_validos.sort() #se ordena sendentemente
+
+    #
+    return cuadrados_validos # lo que retorna la funcion
 
 
 
@@ -38,3 +38,6 @@ print(resultado_3)
 entrada_4 = [-10, 10]
 resultado_4 = cuadrados_ordenados(entrada_4)
 print(resultado_4)
+
+
+
